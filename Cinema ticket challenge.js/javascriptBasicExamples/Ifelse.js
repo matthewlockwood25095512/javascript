@@ -1,10 +1,22 @@
 /*
-if (1 !== "1") {
+if (1 === "1") {
     console.log(true);
 }
 else {
     console.log(false);
 }
+
+// The way that if else works is that 
+
+//IF (SOMETHING) {
+  //  DO THIS
+//}
+//ELSE IF (SOMETHING ELSE) {
+  //  DO THIS
+//}
+//ELSE {
+  //  IF NOTHING ELSE MATCHES THEN DO THIS.
+//}
 
 
 let age = 17;
@@ -30,6 +42,8 @@ else {
     console.log("What it isn't raining");
 }
 
+// THIS HAS ADDED A && SYMBOL IN THERE
+
 let day = "Saturday"
 
 if (day == "Saturday" || day == "Sunday"){
@@ -38,6 +52,8 @@ if (day == "Saturday" || day == "Sunday"){
 else{
     console.log("When is weekend?");
 }
+
+// THIS HAS ADDED AN OR IN THERE ||
 
 let password = "2509"
 
