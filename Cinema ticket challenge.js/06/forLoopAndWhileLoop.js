@@ -34,19 +34,20 @@ let favouriteFilms = [
     "Blade"
 ]
 
-    for(let i =0; i<favouriteFilms.length; i++);
-    console.log(favouriteFilms[i]);
+    for(let i = 0; i<favouriteFilms.length; i++)
+        console.log(favouriteFilms[i])
 
 
     const filmCheck = (thirdFilm) => {
-        if (thirdFilm[2] == "Ghostbusters");{
-            return("yey its ghostbusters");
+        if (thirdFilm[2] == "Ghostbusters"){
+            return "yey its ghostbusters"
         }
         else {
-            return("No it not");
+            return "No it not"
         }
     }
-        console.log(filmCheck(favouriteFilms));
+     
+    console.log(filmCheck(favouriteFilms));
 
 /*
     while(thirdFilm != "Gladiator"){
