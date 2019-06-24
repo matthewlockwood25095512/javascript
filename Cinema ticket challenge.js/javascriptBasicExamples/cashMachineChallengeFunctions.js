@@ -1,17 +1,7 @@
-/*
-let pinNumber = 1234
-let availableBalance = 500
-let requestedAmount = 100
 
 
-const remainingAmount = (takeMoney) => {
-    return availableBalance - requestedAmount;
-}
 
-console.log(`The remaining balance is £ ${takeMoney}`);
-
-
-let pinNumber = 1234
+const pinNumber = 1234
 let availableBalance = 100
 
 const withdrawCash = (requestedAmount, pinNumberEntered) => {
@@ -30,7 +20,7 @@ const withdrawCash = (requestedAmount, pinNumberEntered) => {
 withdrawCash (5, 1234)
 withdrawCash (3, 1234)
 
-
+/*
 let pin = 1234
 
 const withdrawcash = (pinNumberEntered) => {
@@ -40,7 +30,11 @@ const correctDetails = () => {
     if withdrawcash =true;
     console.log("Correct");
 }
-*/
+
+
+
+
+
 const pinNumber = 1234;
 let availableBalance = 100;
 
@@ -69,3 +63,4 @@ const cashMachine = (pinNumberEntered, requestedAmount) => {
 
 cashMachine(1234, 5);
 cashMachine(1235, 3);
+*/

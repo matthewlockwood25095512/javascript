@@ -1,4 +1,4 @@
-/*
+
 for (i = 0; i < 10; i++){
     console.log(i);
 }
@@ -14,4 +14,3 @@ for (i = 38; i < 45; i++){
 
 // This is the same for loop  but statrting at 38 and running upto 44
 
-*/
